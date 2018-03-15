@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+
+.top-bar {
+  display: flex;
+  /*justify-content: space-between;*/
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 20px 0;
+  background-color: white;
+}
+  
+  .logo {
+    margin:0 0 1px;
+  }
+
+  .menu {
+    align-content: stretch;
+    flex-wrap: wrap;
+    display: flex;
+    list-style: none;
+  }
+    
+  .menu li {
+      padding: 0 25px;
+      margin: 0 15px 0 -25px;
+    }
+    
+  
+  .menu li a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .menu li a i.fa-home,
+  .menu li a i.fa-calendar-check-o,
+  .menu li a i.fa-comments,
+  .menu li a i.fa-list-alt,
+  .menu li a i.fa-question-circle   {
+    padding-right: 4px;
+  }
+
+
+    
+  .menu li a:hover {
+      color: #FF0000;
+      transition: 0.6s ease;
+    }
+  .menu li a:focus {
+      color: #008A44;
+  }
+
+
+.notification {
+  align-content: stretch;
+    flex-wrap: wrap;
+    display: flex;
+    list-style: none;
+}
+
+.notification li {
+
+    margin: 0 0 0 125px;
+}
+
+.notification li a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.notification li a:hover {
+      color: #FF0000;
+      transition: 0.6s ease;
+}
+
+.notification li a:focus {
+      color: #008A44;
+}
+
+
+.content {
+  background-color: #fff0bc;
+  color: #0b090f;
+  padding: 0 15px;
+  flex: 1 0 auto;
+  min-height: 300px;
+  overflow: hidden;
+  }
+
+.footer-top-bar {
+  display: flex;
+  justify-content: space-between;
+  /*justify-content: flex-start;*/
+  align-items: center;
+  padding: 0 20px 0;
+  background-color: white;
+}
+
+.footer-logo {
+    margin:0 0 1px 200px;
+  }
+
+  .footer-top-bar p {
+    margin: 0 0 0 -240px;
+  }
+
+.footer-menu {
+    align-content: stretch;
+    flex-wrap: wrap;
+    display: flex;
+    list-style: none;
+  }
+
+.footer-menu li {
+      padding: 0 25px;
+      margin: 0 15px 0 -25px;
+    }
+
+.footer-menu li a {
+    color: #444;
+    text-decoration: none;
+ }
+
+.footer-menu li a:hover {
+      color: #FF0000;
+      transition: 0.6s ease;
+    }
+  .footer-menu li a:focus {
+      color: #008A44;
+  }
+
+
+
+
+
+/*@media screen and (max-width: 550px) {
+  .top-bar {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+}*/
+
